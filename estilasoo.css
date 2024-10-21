@@ -1,6 +1,4 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
@@ -15,12 +13,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
+    flex: 1;
 }
 
 .container-form {
     width: 90%;
     height: 90vh;
-    display: flex;
     justify-content: space-around;
     transition:  all .5s ease-out;
 }
@@ -32,7 +30,11 @@ body {
 }
 
 .message {
+    background-color: rgb(51, 51, 51, 0.602);
     padding: 1rem;
+    text-align: center;
+    margin: auto;
+    width: 85%;
 }
 
 .message h2 {
@@ -145,7 +147,7 @@ body {
 
 .logomdb {
     display: inline-block;
-    width: 600px;
+    width: 900px;
     padding: 1rem;
     margin: 2rem;
     background-color: rgb(51, 51, 51, 0.602);
